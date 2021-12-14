@@ -1,0 +1,33 @@
+,XGBoost Classifier
+사용 모델,XGBoost Classifier
+Eval Metric,logloss
+학습 시간,4s
+학습 반복 수,410 rounds
+Learning Rate,0.01
+Early Stopping,Y
+Scaling,N
+StratifiedKFold(n_splits),Y (5)
+---------------Train--------------,-------------------Train------------------
+학습 데이터 수,37629
+학습 데이터 정확도 / 수,95.4% / 35905
+Logloss,0.148
+Precision,0.485
+Recall,0.210
+F1 Score,0.293
+AUC,0.598
+데이터 수 [label:0],35565
+정확도 / 수 [label:0],99.3% / 35308
+데이터 수 [label:1],2064
+정확도 / 수 [label:1],28.9% / 597
+----------------Test--------------,-------------------Test-------------------
+테스트 데이터 수,4181
+테스트 데이터 정확도 / 수,94.5% / 3949
+Logloss,0.148
+Precision,0.485
+Recall,0.210
+F1 Score,0.293
+AUC,0.598
+테스트 수 [label:0],3952
+테스트 정확도 / 수 [label:0],98.7% / 3901
+테스트 수 [label:1],229
+테스트 정확도 / 수 [label:1],21.0% / 48
